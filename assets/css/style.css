@@ -1,0 +1,246 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right:15px;
+}
+.alignright {
+    float:right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+}
+img {
+    max-width:100% ;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color:#c0c0c0;
+}
+a:hover {
+        text-decoration: none;
+    }
+
+    ::-webkit-inpu-placeholder { /* Chrome/Opera/Safari */
+        color: #c8c8c8;
+    }::-moz-placeholder { /* Firefox 19+ */
+        color: #c8c8c8;
+    }: -ms-input-placeholder { /* IE 10+ */
+        color: #c8c8c8;
+    }: -moz-placeholder { /* Firefox 18- */
+        color: #c8c8c8;
+    }
+
+    .hompage-slide-bg-1 {
+        background-image: url(../img/head.jpg);
+    }
+    .block-box-bg-1 {
+      background-image: url(../img/mini1.png);
+    }
+    .block-box-bg-2 {
+        background-image: url(../img/mini2.png);
+    }
+    .block-box-bg-3 {
+         background-image: url(../img/mini3.png);
+    }
+    .block-box-bg-4 {
+        background-image: url(../img/mini4.png);
+    }
+    .block-box2-bg-1 {
+        background-image: url(../img/m.png);
+    }
+    .block-box2-bg-2 {
+        background-image: url(../img/m2.png);
+    }
+
+
+    .header-logo {
+        text-transform: uppercase;
+    }
+    .header-logo a {
+        color: #222222;
+}
+.header-logo h1{
+	font-size:30px;
+	display:inline-block;
+	font-weight:400;
+	padding:10px 20px;
+	margin:10px 0;
+	
+}
+
+.header-menu{
+	
+}
+.header-menu ul li a{
+	display:block;
+	color:#626262;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 30px 40px;
+    }
+    .header-menu ul li {
+        display: inline-block;
+        position: relative;
+
+    }
+    .hompage-slide {
+        background-color: #f2f2f2;
+        background-position: center;
+        background-size: cover;
+        width: 100% ;
+        height: 100vh;
+    }
+    .section-padding {
+
+        padding-top: 80px;
+        padding-bottom:40px;
+    }
+    .photodiary-small-title {
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .photodiary-big-title h1 {
+        color: #626262;
+	font-weight: 500;
+}
+
+.photodiary-content p{
+	    color: #626262;
+    }
+a.comment {
+        color: #beb8ab;
+        padding: 40px 0px;
+        display: block;
+        text-transform: uppercase;
+
+    }
+    .section-padding-block-box {
+        margin-top: 100px;
+    }
+    .block-box-bg {
+        background-color: #f2f2f2;
+        background-position: center;
+        background-size: cover;
+        width: 420px;
+        height: 280px;
+    }
+    .block-box-content p {
+        padding: 20px 0 100px;
+        font-size: 14px;
+        color: #626262;
+}
+
+.block-small-title{
+	display:block;
+	 padding: 20px 0;
+	 text-transform:uppercase;
+	 color:#beb8ab;
+    }
+    .block-box-large-title {
+
+    }
+    .block-box-large-title h2 {
+        font-size: 23px;
+        color: #626262;
+	font-weight: 400;
+}
+.sign-up{
+	background-color:#f0f0f0;
+        padding: 55px 0;
+        position: relative;
+
+    }
+    .sign-up h2 {
+        //padding:100px 0;
+        display: block;
+        color: #333333;
+	 font-size: 27px;
+}
+.sign-up-form input{
+		border: none;
+		background: none;
+		color:# 626262;
+    }
+    .sign-up-form input {
+
+        border-bottom: 1px solid #000000;
+		color:#000000;
+        width: 100% ;
+        padding: 10px 0;
+
+    }
+    .sign-up-form i.fa {
+
+        color: #c8c8c8; 
+       -ms-transform: rotate(7 deg); /* IE 9 */ -
+        webkit-transform: rotate(7 deg); /* Chrome, Safari, Opera */
+        transform: rotateX(23deg) rotate(52deg);
+        font-size: 26px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .sign-up-form placeholder {
+        color: red;
+    }
+a.load-btn {
+        border: 1px solid black;
+        padding: 10px 30px;
+        color: #626262;
+	font-size:20px;
+}
+.footer{
+	
+	background-color:#f0f0f0;
+        margin-top: 100px;
+
+    }
+    .footer-terms-condition a {
+        padding: 0px 20px;
+        color: #000000;
+}
+.footer-section{
+	padding:40px 0;
+	line-height: 1;
+}
+.follow{
+	float:left;
+	 position: absolute;
+    left: 70%;
+	color:#848484;
+    }
+    .footer-social li {
+        display: inline-block;
+
+    }
+    .footer-social {
+        text-align: right;
+        position: relative;
+    }
+    .footer-social ul {
+        padding-right: 60px;
+    }
+    .footer-social li a {
+        padding: 0 10px;
+        color: #626262;
+		display:block;
+	
+}
